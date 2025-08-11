@@ -1,0 +1,36 @@
+header {
+  display: flex; /* Cho logo thanh toán chung hàng */
+  justify-content: flex-start; /* Trái sang phải */
+  align-items: center; /* Căn giữa với logo */
+  padding: 10px; /* Căn trên xuống */
+  font-size: 25px; /* Đặt cỡ chữ */
+  background-color: #f0f0f0; /* Màu */
+  width: 100%; /* Lan toàn màn hình */
+}
+
+* {
+  box-sizing: border-box; /* Đảm bảo padding không làm hẹp header */
+}
+
+img {
+  width: 120px; /*Chỉnh kích thước logo*/
+}
+
+body {
+  margin: 0; /* Loại bỏ margin mặc định của body */
+  padding: 0; /* Loại bỏ padding mặc định của body */
+}
+
+ul {
+  display: flex; /* Cho Home, Books, Cart, ... nằm ngang */
+  list-style: none; /* Xóa chấm */
+  gap: 20px; /* Khoảng cách giữa Home, Books, Cart */
+}
+
+nav {
+  margin-left: 50px; /* Tách khoảng cách giữa LOGO và Home */
+}
+
+div { 
+  margin-left: auto; /* Đẩy Thanh toán ra ngoài cùng bên phải */
+}

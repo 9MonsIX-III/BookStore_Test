@@ -1,0 +1,18 @@
+html, body {
+  height: 100%; /* cho phép tính chiều cao 100% */
+  margin: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* full chiều cao viewport */
+}
+
+main {
+  flex: auto; /* đẩy footer xuống dưới */
+}
+
+footer {
+  padding: auto;
+}
