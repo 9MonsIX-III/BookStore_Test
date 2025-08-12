@@ -10,13 +10,12 @@ function Header() {
 
       <nav>
         <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/books">Books</Link></li>
-          {/* Thay dấu chấm bằng các route cụ thể nếu cần */}
-          <li><Link to="/categories">Categories</Link></li> {/* Giả sử */}
-          <li><Link to="/deals">Deals</Link></li> {/* Giả sử */}
-          <li><Link to="/contact">Contact</Link></li> {/* Giả sử */}
-          <li><Link to="/about">About</Link></li> {/* Giả sử */}
+          <li><Link to="/">Home</Link></li> {/* Giữ nguyên vì là route gốc */}
+          <li><Link to="books">Books</Link></li>
+          <li><Link to="categories">Categories</Link></li> 
+          <li><Link to="deals">Deals</Link></li>
+          <li><Link to="contact">Contact</Link></li>
+          <li><Link to="about">About</Link></li>
         </ul>
       </nav>
 
@@ -27,7 +26,7 @@ function Header() {
       />
 
       <div className="checkout">
-        <Link to="/checkout">Thanh toán</Link> {/* Thêm Link cho Thanh toán */}
+        <Link to="checkout">Thanh toán</Link>
       </div>
     </header>
   );
